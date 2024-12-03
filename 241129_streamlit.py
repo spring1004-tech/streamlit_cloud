@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from mistralai import Mistral, UserMessage
 
 st.title("첫 스트림릿 예제")
 st.write('안녕하세요, 처음 만드는 스트림릿 예제입니다.')
